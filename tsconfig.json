@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "module": "commonjs"
+    },
+    "exclude": [
+        "./node_modules",
+        "./typings",
+        "./.vscode",
+        "./dist"
+    ]
+}
